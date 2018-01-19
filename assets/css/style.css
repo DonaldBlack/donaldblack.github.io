@@ -1,0 +1,63 @@
+body {
+    background-color: #efeee7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333333;
+    margin: auto;
+    padding: 0;
+}
+
+header {
+    background-color: #333333;
+}
+
+h1 {
+    color: #eee;
+    font-size: 28px;
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    
+}
+
+a {
+    color: #d21034;
+}
+
+.header_1 {
+    border-bottom: 2px solid #cccccc;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    background-color: #ffffff;
+   
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+#main-bio {
+    float: left;
+    width: 70%;
+}
+
+#contact-info {
+    float: left;
+    width: 30%;
+}
+
+#bio-image {
+    float: left;
+    margin-right: 15px;
+}
+
+.header_links,
+.about,
+.portfolio,
+.contact {
+    display: inline;
+    float: right;  
+}
+
