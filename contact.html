@@ -1,22 +1,76 @@
-+<!DOCTYPE html>
- +<html lang="en-us">
- +    <head>
- +        <title>Donald's Portfolio</title>
+<!DOCTYPE html>
+ <html lang="en-us">
+     <head>
+            <meta charset="UTF-8">
+         <title>Donald's Portfolio</title>
             <link rel="stylesheet" type="text/css" href="assets/css/style.css">
             <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
- +    </head>
+    </head>
 
- +    <body>
-            <div class= "Header_1">
-                <header>
- +               <h1 class="header_name">Donald Black</h1>
+     <body>
+           <!-- WRAPS ENTIRE PAGE // FLEXBOX FOOTER RELATED -->
+
+           <div class="wrapper">
+
+            
+                <header class="clearfix">
+                    <section class="main_header">
+                <h1 class="header_name">Donald Black</h1>
                 <ul class="header_links">
-                <li class="about"><a href="index.html">About</a></li>
-                <li class="portfolio"><a href="portfolio.html">Portfolio</a></li>
-                <li class="contact"><a href="contact.html">Contact</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
                 </ul>
+                    </section>
+                    </div>
                 </header>
+            
+    <!--The code for the main body of the pages.-->
+    <section class="contact-me">
+			<h2>Contact Me</h2>
+			<br><hr><br>
+			
+			<form action="mailto:donald.black20@gmail.com" method="post" enctype="text/plain">
+	    		
+	    		<div class="user-name">
+					<label for="name">Name</label> <input type="text" id="name" name="user_name" placeholder="Eric Cartman">
+				</div>
+
+				<div class="user-mail">
+					<label for="mail">E-mail</label> <input type="email" id="mail" name="user-mail" placeholder="example@gmail.com">
+				</div>
+				
+				<div class="user-message">
+					<label for="msg">Message</label> <textarea id="msg" name="user_message"></textarea>
+				</div>
+	    		
+	    		<div class="button">
+	    			<button type="submit">Submit</button>
+	    		</div>
+			
+			</form>
+		</section>
             </div>
- +    </body>
- +
- +</html> 
+
+            <div class="main"</div>
+                <aside>
+                    <nav>
+                        <h3 class="media_links">Connect with Me</h3>
+                        <br><hr><br>
+                        <ul class="social_media_links">
+                                <li class="github"><a href="https://github.com/DonaldBlack" target="_blank"></a><img src="assets/images/github_logo.png" alt="Github Logo"width="60px" height="60px"></a></li>
+                                <li class="linkedin"><a href="https://www.linkedin.com/in/donald-black-a1493527/" target="_blank"><img src="assets/images/linkedin_logo.png" alt="Linkedin Logo" width="60px" height="60px"></a></li>
+                                <li class="stack"><a href="https://stackoverflow.com/users/9189841/d-black" target="_blank"><img src="assets/images/stackoverflow_logo.png" alt="Stack Overflow Logo" width="60px" height="60px"></a></li>
+                            </ul>
+
+                      </nav>          
+                </aside>
+                
+                <footer>
+                    &copy; Copyright 2018 Donald Black
+                </footer>
+            
+                
+     </body>
+     
+ </html> 
